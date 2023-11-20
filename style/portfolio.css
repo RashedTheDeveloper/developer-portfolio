@@ -124,19 +124,75 @@ height: 676px;
 
 }
 
-/* section1................ */
 
+/* main.............. */
+
+ main{
+    max-width: 1140px;
+    margin: 0 auto;
+} 
+
+/* section-----1 */
 .about{
-    color: var(--Dark-01, #181818);
+    margin-top: 130px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    padding: 130px 150px;
+    text-align: center;
+}
+.section-title{
 text-align: center;
+margin-bottom: 30px;
+color: var(--Dark-01, #181818);
+
 font-family: Open Sans;
 font-size: 35px;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
-padding-bottom: 40px;
 }
-.about-para{
+.section-description{
+text-align: center;
+color: var(--Dark-03, #757575);
+font-family: Open Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 166.667% */
+width: 827px;
+margin-bottom: 30px;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.info-title{
+    color: var(--Dark-03, #757575);
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 150% */
+}
+.info-description{
+    color: var(--Dark-02, #474747);
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+
+/* section.....2 */
+
+.what-i-do{
+    
+    margin-top: 130px;
+}
+.what-description{
+    margin-top: 27px;
     color: var(--Dark-03, #757575);
 text-align: center;
 font-family: Open Sans;
@@ -144,50 +200,62 @@ font-size: 18px;
 font-style: normal;
 font-weight: 400;
 line-height: 30px; /* 166.667% */
-width: 827px;
-
+width: 909px;
+padding: 0px 150px;
 }
-
-    
-
-.style{
-    background: #FFF8F3;
-    padding: 36px;
-}
-
-.section1{
-margin: 40px 230px;
-border-radius: 10px;
-
-
-
-
-
-
-
-
-}
-
-.about-info-container{
-    display: flex;
-    justify-content: space-around;
-    margin: 20px 0px;
-   
-}
-.info-title{
-    color: var(--Dark-03, #757575);
+.what-title{
+color: var(--Dark-01, #181818);
 text-align: center;
 font-family: Open Sans;
-font-size: 20px;
+font-size: 35px;
 font-style: normal;
-font-weight: 400;
-line-height: 30px; /* 150% */
+font-weight: 700;
+line-height: normal;
 }
-.info-description{
-    color: var(--Dark-02, #474747);
+
+/* skills-container....... */
+
+.skills-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+   
+    
+    
+.skill{
+    padding: 33px 33px 30px 33px;
+    background:#FFF;
+    border-radius: 5px;
+    
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06)
+ 
+
+}
+.skill img{
+width: 44px;
+height: 44px;
+
+}
+.skill-title{
+color: var(--Dark-01, #181818);
+
 font-family: Open Sans;
 font-size: 20px;
 font-style: normal;
 font-weight: 700;
-line-height: 30px;
+line-height: normal;
+margin-top: 25px;
+}
+
+.skill-description{
+    color: var(--Dark-03, #757575);
+font-family: Open Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 175% */
+width: 201px;
+margin-top: 20px;
 }
