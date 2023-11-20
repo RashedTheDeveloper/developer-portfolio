@@ -259,3 +259,174 @@ line-height: 28px; /* 175% */
 width: 201px;
 margin-top: 20px;
 }
+
+
+/* resume.......... */
+
+.resume{
+    margin-top: 130px;
+
+    
+}
+.resume-title{
+text-align: center;
+color: var(--Dark-01, #181818);
+text-align: center;
+font-family: Open Sans;
+font-size: 35px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.eduex-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 113px;
+}
+
+.edu-title{
+    color: var(--Dark-02, #474747);
+font-family: Open Sans;
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.title{
+    color: var(--Dark-02, #474747);
+    font-family: Open Sans;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 30px;
+}
+.sub-title{
+    color: var(--Dark-03, #757575);
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 10px;
+}
+.description{
+    color: var(--Dark-03, #757575);
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 175% */
+    width: 511px;
+    margin-top: 20px;
+}
+
+hr{
+width: 558px;
+height: 1px;
+background: #D1D1D1;
+margin-top: 30px;
+}
+
+.button{
+    text-align: center;
+    margin-top: 50px;
+
+
+   
+}
+
+/* footer.......... */
+
+.footer{
+    background: #FFF8F3;
+    margin-top: 113px;
+    padding: 130px 230px 130px 230px;
+    display: flex;
+    gap: 20px;
+}
+.cnnt-title{
+    color: var(--Dark-01, #181818);
+
+font-family: Open Sans;
+font-size: 35px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.cnnt-des{
+    color: var(--Dark-02, #474747);
+font-family: Open Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 175% */
+width: 562px;
+padding: 20px 0px 0px 0px;
+}
+.social-media{
+    display: flex;
+    gap: 20px;
+    padding: 10px 0px 0px 0px;
+}
+.inpt-st{
+
+width: 461px;
+height: 64px;
+
+border-radius: 5px;
+border:0;
+background: var(--White-Color, #FFF);
+font-size: 16px;
+margin-top: 20px;
+color: var(--Dark-03, #757575);
+font-family: Open Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 175% */
+}
+
+.mssg-title{
+color: var(--Dark-01, #181818);
+text-align: center;
+font-family: Open Sans;
+font-size: 35px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.inpt-masg{
+    width: 461px;
+height: 180px;
+flex-shrink: 0;
+border-radius: 5px;
+border: 0;
+background: var(--White-Color, #FFF);
+color: var(--Dark-03, #757575);
+font-family: Open Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 175% */
+margin-top: 20px;
+}
+
+.submit{
+    width: 150px;
+height: 64px;
+flex-shrink: 0;
+border-radius: 5px;
+background: #FD6E0A;
+
+color: var(--White-Color, #FFF);
+text-align: center;
+font-family: Open Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+border: 0;
+margin-top: 20px;
+}
